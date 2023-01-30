@@ -7,12 +7,12 @@ header{
 .top-section{
     background-color: aqua;
     min-height: 400px;
-    width: 100vw;
 }
 
 .small-container{
     background-color: blue;
     min-height: 350px;
+    margin-top: 10px;
 }
 
 
@@ -29,6 +29,25 @@ header{
     text-align: center;
 }
 
+.container{
+    background-color: yellow;
+}
+
+.columns{
+    background-color: cornflowerblue;
+    min-height: 400px;
+}
+
+.col{    
+    background-color: green;
+    min-height: 500px;
+}
+
+.enterprise{
+    background-color: pink;
+    min-height: 200px;
+}
+
 
 /* CSS */
 
@@ -41,6 +60,9 @@ header{
 
 header{
     width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav{
@@ -65,6 +87,10 @@ ul{
     text-align: left;
 }
 
+.top-section{
+    margin-top: 60px;
+    width: 100vw;
+}
 
 .small-container{
     max-width: 40vw;
@@ -80,7 +106,28 @@ h1{
     padding: 10px;
 }
 
-.principal{
+.container{
     width: 1170px;
     margin: auto;
 }
+
+.columns{
+    width: 1170px;
+    padding: 20px;  
+    display: flex;
+    margin-top: 70px;
+}
+
+.col{
+    width: calc(100% / 3 - 10px);
+    margin:5px;
+    border: 2px solid black;
+}
+
+.enterprise{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+
