@@ -54,6 +54,19 @@ header{
     min-height: 400px;
 }
 
+.slogan{
+    background-color: brown;
+    min-height: 100px;
+}
+
+.adv-container{
+    background-color: burlywood;
+    min-height: 400px;
+   
+}
+
+
+
 
 /* CSS */
 
@@ -142,4 +155,58 @@ h1{
 
 }
 
+.slogan{
+    width: 40vw;
+    padding: 10px;
+    margin: 20px 0 20px 20px;
+}
 
+.adv-container{
+    padding: 10px;
+    margin-top: 80px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.adv{
+ border: 1px solid black;
+ width: calc(100% / 3 );
+}
+
+.sponsor{
+    width: calc(100% / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design-it-sponsor{
+border: 1px solid black;
+}
+
+.asu-sponsor{
+    border: 1px solid black;
+}
+
+.florida-sponsor{
+    border: 1px solid black;
+}
+
+.topps-sponsor{
+    border: 1px solid black;
+}
+
+.design-it-sponsor img{
+    width: 100%;
+}
+
+.asu-sponsor img{
+    width: 100%;
+}
+
+.florida-sponsor img{
+    width: 100%;
+}
+
+.topps-sponsor img{
+    width: 100%;
+}
