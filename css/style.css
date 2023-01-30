@@ -65,6 +65,31 @@ header{
    
 }
 
+.banner{
+    background-color: aqua;
+    min-height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    background-color: blueviolet;
+    border: 1px solid black;
+    min-width: 600px;
+}
+
+.right{
+    background-color: plum;
+    border: 1px solid black;
+    min-width: 300px;
+}
+
+.faq{
+    min-height: 400px;
+    background-color: orange;
+}
+
 
 
 
@@ -209,4 +234,22 @@ border: 1px solid black;
 
 .topps-sponsor img{
     width: 100%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
