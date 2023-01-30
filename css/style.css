@@ -31,6 +31,7 @@ header{
 
 .container{
     background-color: yellow;
+    min-height: 300px;
 }
 
 .columns{
@@ -79,7 +80,7 @@ header{
     min-width: 600px;
 }
 
-.right{
+.right-2{
     background-color: plum;
     border: 1px solid black;
     min-width: 300px;
@@ -88,6 +89,15 @@ header{
 .faq{
     min-height: 400px;
     background-color: orange;
+}
+
+footer{
+    min-height: 300px;
+}
+
+.colonna{
+    background-color: rgb(164, 185, 164);
+    min-height: 100px;
 }
 
 
@@ -110,19 +120,24 @@ header{
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
     display: fixed;
     top: 0;
     left: 0;
 }
 
-ul{
+.navigazione{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-nav{
     list-style: none;
     color: black;
     display: flex;
     flex-direction: row;
 }
+
+
  .right{
     text-align: right;
 }
@@ -242,7 +257,7 @@ border: 1px solid black;
     justify-content: center;
 }
 
-.right{
+.right-2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,3 +268,22 @@ border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
+
+footer{
+    width: 100vw;
+    background-color: black;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.colonna{
+    width: calc(100% / 5 - 20px);
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
