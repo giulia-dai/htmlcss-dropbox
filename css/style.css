@@ -155,7 +155,8 @@ li{
 h1{
     font-size: 50px;
     margin-top: 30px;
-    text-align: left;
+    padding: 10px;
+    text-align: justify;
 }
 
 .small-container{
@@ -167,10 +168,6 @@ h1{
   
 }
 
-h1{
-    padding: 10px;
-    text-align: justify;
-}
 
 .titolo{
     width: 765px;
@@ -187,8 +184,8 @@ h1{
 }
 
 span{
-    display: block;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .fa-arrow-down{
@@ -206,7 +203,23 @@ span{
 
 .container{
     width: 1000px;
-    margin: auto;
+    margin:auto;
+    margin-top: 30px;
+}
+
+h2{
+ margin-bottom: 20px;
+}
+
+.fa-circle-dot{
+    background-color: rgb(1, 95, 255) ;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}
+
+.fa-circle{
+    margin-right: 5px;
 }
 
 .columns{
@@ -214,13 +227,18 @@ span{
     padding: 20px;  
     display: flex;
     flex-wrap: wrap;
-    margin-top: 70px;
 }
 
 .col{
     width: calc(100% / 3 - 10px);
     margin:5px;
     border: 2px solid black;
+}
+
+.utente-tipo{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
 
 .enterprise{
@@ -338,4 +356,5 @@ a{
     padding: 10px;
     color: white;
 }
+
 
