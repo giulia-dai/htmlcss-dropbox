@@ -38,14 +38,14 @@ header{
 
 .adv-container{
     background-color: burlywood;
-    min-height: 400px;
+    max-height: 450px;
    
 }
 
 .banner{
     background-color: aqua;
     min-height: 300px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -353,52 +353,47 @@ h3{
     margin-top: 80px;
     display: flex;
     border: 1px solid black;
-    width: 100%;
 }
 
-.adv{
+.square{
  border: 1px solid black;
  width: calc(100% / 3 );
  height: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.small-square{
+    height: 50%;
+    width: 50%;
+}
+ 
+.overflow{
+    overflow: hidden;
 }
 
 .sponsor{
-height: 50%;
-width: 50%;
-}
-
-/* .design-it-sponsor{
-border: 1px solid black;
-}
-
-.asu-sponsor{
-    border: 1px solid black;
-}
-
-.florida-sponsor{
-    border: 1px solid black;
-}
-
-.topps-sponsor{
-    border: 1px solid black;
-}
-
-.design-it-sponsor img{
     width: 100%;
 }
 
-.asu-sponsor img{
+.img-sponsor{
     width: 100%;
 }
 
-.florida-sponsor img{
+.sponsor-center-square{
     width: 100%;
+    padding: 30px;
 }
 
-.topps-sponsor img{
-    width: 100%;
-} */
+.img-sponsor-center-square{
+    width: 40%;
+}
+
+.overflow{
+    height: 312px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
 
 .left {
     display: flex;
