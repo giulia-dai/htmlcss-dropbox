@@ -422,7 +422,6 @@ footer{
 }
 
 ul{
-    padding: 10px;
     margin: 10px;
     list-style: none;
 }
@@ -432,6 +431,17 @@ ul{
     display: inline-block;
     margin-left: 14px;
     margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+h4{
+    margin-left: 15px;
+}
+
+.hr-footer{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 14px;
 }
 
 a{
@@ -472,3 +482,10 @@ a{
     margin-left: 50px;
 }
 
+.fa-earth-americas , .fa-caret-up , .lingua{
+    color: grey;
+}
+
+.last-detail{
+margin-left: 14px;
+}
