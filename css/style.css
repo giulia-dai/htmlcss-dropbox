@@ -1,66 +1,10 @@
 /* DEBUG */
 
-header{
-    height: 70px;
-  background-color: white;
-} 
-
-
-
-.top-section{
-    min-height: 400px;
-}
-
-.small-container{
-    background-color: blue;
-    min-height: 350px;
-    margin-top: 10px;
-}
-
-
-.principal{
-    background-color: lightgreen;
-    min-height: 600px;
-    text-align: center;
-}
-
-.container{
-    background-color: yellow;
-    min-height: 300px;
-}
-
-
-.col{    
-    background-color: green;
-    min-height: 500px;
-}
-
-
 .adv-container{
     background-color: burlywood;
     max-height: 450px;
    
 }
-
-.banner{
-    min-height: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
-footer{
-    min-height: 300px;
-}
-
-.colonna{
-    background-color: rgb(164, 185, 164);
-    min-height: 100px;
-}
-
-
-
 
 /* CSS */
 
@@ -73,6 +17,7 @@ footer{
 
 header{
     width: 100%;
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -113,7 +58,6 @@ li{
 .top-section{
     background-color: rgb(180, 208, 231);
     padding-top: 70px;
-    width: 100%;
 }
 
 h1{
@@ -121,6 +65,7 @@ h1{
     margin-top: 30px;
     padding: 10px;
     text-align: justify;
+    width: 590px;
 }
 
 .small-container{
@@ -144,7 +89,7 @@ h1{
 }
 
 .presentazione p{
-    padding: 10px;
+    padding-bottom: 20px;
     margin-bottom: 10px;
 }
 
@@ -380,6 +325,10 @@ h3{
 
 .banner{
     background-color: rgb(180, 208, 231);
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .banner-titolo{
@@ -417,7 +366,7 @@ h3{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
@@ -432,6 +381,7 @@ ul{
     margin-left: 14px;
     margin-top: 10px;
     padding-bottom: 30px;
+    color: white;
 }
 
 h4{
@@ -439,9 +389,13 @@ h4{
 }
 
 .hr-footer{
-    width: 50px;
+    width: 150px;
     margin-bottom: 20px;
     margin-left: 14px;
+}
+
+.white{
+    color: white;
 }
 
 a{
@@ -487,5 +441,6 @@ a{
 }
 
 .last-detail{
-margin-left: 14px;
+  margin-left: 14px;
+  padding-bottom: 40px;
 }
