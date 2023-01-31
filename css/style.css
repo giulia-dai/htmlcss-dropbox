@@ -50,11 +50,6 @@ header{
 }
 
 
-.faq{
-    min-height: 400px;
-    background-color: orange;
-}
-
 footer{
     min-height: 300px;
 }
@@ -408,6 +403,17 @@ h3{
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.faq-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.fa-arrow-down{
+    text-align: right;
 }
 
 footer{
