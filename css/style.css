@@ -43,24 +43,12 @@ header{
 }
 
 .banner{
-    background-color: aqua;
     min-height: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.left{
-    background-color: blueviolet;
-    border: 1px solid black;
-    min-width: 600px;
-}
-
-.right-2{
-    background-color: plum;
-    border: 1px solid black;
-    min-width: 300px;
-}
 
 .faq{
     min-height: 400px;
@@ -395,10 +383,19 @@ h3{
     overflow-y: scroll;
 }
 
+.banner{
+    background-color: rgb(180, 208, 231);
+}
+
+.banner-titolo{
+  color: rgb(98, 9, 43);
+}
+
 .left {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 300px;
 }
 
 .right-2{
@@ -462,4 +459,10 @@ a{
     padding: 10px;
 }
 
+.button-border-none{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 50px;
+}
 
