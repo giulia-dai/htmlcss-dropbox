@@ -201,6 +201,10 @@ span{
     width: 100%;
 }
 
+.annulla{
+    margin-top: 30px;
+}
+
 .container{
     width: 1000px;
     margin:auto;
@@ -239,6 +243,51 @@ h2{
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid black;
+}
+
+.piano{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    margin: 10px 0;
+}
+
+.frequency{
+    margin-bottom: 20px;
+}
+
+.fa-user , .fa-folder , .fa-share-nodes , .fa-solid{
+    margin-right: 5px;
+    display: inline;
+}
+
+
+
+.offerta{
+    padding: 10px 0;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+
+.buy{
+    margin-top: 20px;
+}
+
+.important{
+    margin: 20px 0;
+}
+
+.fa-check{
+    color: rgb(1, 95, 255);
+}
+
+.more-margin{
+    margin-bottom: 20px;
 }
 
 .enterprise{
@@ -353,8 +402,14 @@ a{
 
 .button{
     background-color: rgb(1, 95, 255);
+    text-align: center;
     padding: 10px;
     color: white;
+}
+
+.special-a{
+    color: blue;
+    text-decoration: underline;
 }
 
 
