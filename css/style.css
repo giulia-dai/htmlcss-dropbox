@@ -1,11 +1,13 @@
 /* DEBUG */
 
 header{
-    min-height: 60px;
-    background-color: antiquewhite;
-}
+    height: 70px;
+  background-color: white;
+} 
+
+
+
 .top-section{
-    background-color: aqua;
     min-height: 400px;
 }
 
@@ -15,13 +17,6 @@ header{
     margin-top: 10px;
 }
 
-
-
-.presentazione{
-    min-height: 350px;
-    width: 260px;
-    background-color: red;
-}
 
 .principal{
     background-color: lightgreen;
@@ -113,7 +108,7 @@ footer{
 
 
 header{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -128,13 +123,18 @@ nav{
 .navigazione{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .lista-nav{
-    list-style: none;
     color: black;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+li{
+    padding: 10px;
 }
 
 
@@ -147,12 +147,19 @@ nav{
 }
 
 .top-section{
-    margin-top: 60px;
-    width: 100vw;
+    background-color: rgb(180, 208, 231);
+    padding-top: 70px;
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: left;
 }
 
 .small-container{
-    max-width: 40vw;
+    width: 1170px;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -161,17 +168,49 @@ nav{
 }
 
 h1{
-    text-align: center;
     padding: 10px;
+    text-align: justify;
+}
+
+.titolo{
+    width: 765px;
+    margin-left: 170px;
+}
+
+.presentazione{
+  margin: auto;
+}
+
+.presentazione p{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+span{
+    display: block;
+    margin-top: 30px;
+}
+
+.fa-arrow-down{
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.jumbo{
+    display: flex;
+}
+
+.img-jumbo{
+    width: 100%;
 }
 
 .container{
-    width: 1170px;
+    width: 1000px;
     margin: auto;
 }
 
 .columns{
-    width: 1170px;
+    width: 1000px;
     padding: 20px;  
     display: flex;
     flex-wrap: wrap;
@@ -206,20 +245,22 @@ h1{
     margin-top: 80px;
     display: flex;
     border: 1px solid black;
+    width: 100%;
 }
 
 .adv{
  border: 1px solid black;
  width: calc(100% / 3 );
+ height: calc(100% / 3);
+
 }
 
 .sponsor{
-    width: calc(100% / 2);
-    display: flex;
-    flex-wrap: wrap;
+height: 50%;
+width: 50%;
 }
 
-.design-it-sponsor{
+/* .design-it-sponsor{
 border: 1px solid black;
 }
 
@@ -249,7 +290,7 @@ border: 1px solid black;
 
 .topps-sponsor img{
     width: 100%;
-}
+} */
 
 .left {
     display: flex;
@@ -285,5 +326,16 @@ ul{
     display: inline-block;
     margin-left: 14px;
     margin-top: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.button{
+    background-color: rgb(1, 95, 255);
+    padding: 10px;
+    color: white;
 }
 
