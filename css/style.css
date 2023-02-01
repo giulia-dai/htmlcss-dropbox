@@ -1,13 +1,3 @@
-/* DEBUG */
-
-.adv-container{
-    background-color: burlywood;
-    max-height: 450px;
-   
-}
-
-/* CSS */
-
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +12,7 @@ header{
     top: 0;
     left: 0;
     z-index: 9999;
+    box-shadow: 0px 2px 5px 0px #888888;
 }
 
 nav{
@@ -284,13 +275,11 @@ h2{
     padding: 10px;
     margin-top: 80px;
     display: flex;
-    border: 1px solid black;
 }
 
 .square{
- border: 1px solid black;
  width: calc(100% / 3 );
- height: calc(100% / 3);
+ height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -298,18 +287,49 @@ h2{
 .small-square{
     height: 50%;
     width: 50%;
+    display: flex;
 }
  
-.overflow{
-    overflow: hidden;
-}
-
 .sponsor{
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .img-sponsor{
     width: 100%;
+}
+
+.green{
+    background-color: rgb(162, 211, 155);
+}
+
+.bordeaux{
+    background-color: rgb(98, 9, 43);
+}
+
+.light-blue{
+    background-color: rgb(0, 147, 206);
+}
+
+.red{
+    background-color: rgb(255, 29, 28);
+}
+
+.dark-red{
+    background-color: rgb(213, 0, 32);
+}
+
+.indaco{
+    background-color: rgb(180, 208, 231);   
+}
+.blue{
+    background-color: rgb(13, 36, 129);
+}
+
+.yellow{
+    background-color: rgb(255, 206, 48);
 }
 
 .sponsor-center-square{
@@ -322,7 +342,7 @@ h2{
 }
 
 .overflow{
-    height: 312px;
+    height: 100%;
     overflow: hidden;
     overflow-y: scroll;
 }
