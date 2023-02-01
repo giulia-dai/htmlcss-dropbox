@@ -442,8 +442,11 @@ a{
     text-align: center;
 }
 
-.button .special-button{
+.special-button{
     margin-top: 10px;
+    color: white;
+    padding: 5px;
+    background-color:rgb(1, 95, 255) ;
 }
 
 .special-a{
